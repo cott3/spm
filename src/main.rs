@@ -15,7 +15,7 @@ use std::fs;
 use std::path::Path;
 
 // Default repository endpoint (can be overridden by SPM_REPO_URL)
-const DEFAULT_REPO_URL: &str = "https://raw.githubusercontent.com/lavaos/spm-recipes/main";
+const DEFAULT_REPO_URL: &str = "https://raw.githubusercontent.com/cott3/spm-recipes/main";
 
 fn main() {
     let args = Cli::parse();
