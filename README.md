@@ -5,7 +5,7 @@ Inspired by functional package management concepts, `spm` isolates installed sof
 
 ## features
 
-- **Store Isolation:** Every package is placed into its own hashed directory (`store/pkg-ber-hash`).
+- **Store Isolation:** Every package is placed into its own hashed directory (`store/pkg-ver-hash`).
 - **Atomic Profiles:** Binaries are linked into `/sys/current/bin/`via symlinks, making installs, removals and upgrades instant and clean.
 
 ---
